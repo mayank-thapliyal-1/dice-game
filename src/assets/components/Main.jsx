@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Main.css'
-// import Main from '../components/main.css'
 const Main = () => {
   return (
     <div className='background'>
