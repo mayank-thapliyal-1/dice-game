@@ -1,9 +1,9 @@
-import Dice1 from "./images/dice1.png";
-import Dice2 from "./images/dice2.png";
-import Dice3 from "./images/dice3.png";
-import Dice4 from "./images/dice4.png";
-import Dice5 from "./images/dice5.png";
-import Dice6 from "./images/dice6.png";
+import Dice1 from "./images/Dice1.png";
+import Dice2 from "./images/Dice2.png";
+import Dice3 from "./images/Dice3.png";
+import Dice4 from "./images/Dice4.png";
+import Dice5 from "./images/Dice5.png";
+import Dice6 from "./images/Dice6.png";
 import React, { useState } from "react";
 import "./Game.css";
 const object = {
