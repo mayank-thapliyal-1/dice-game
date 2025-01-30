@@ -8,7 +8,6 @@ const Main = () => {
       <Link to="/game">
       <button>Play Now</button>
       </Link>
-     
     </div>
   )
 }
