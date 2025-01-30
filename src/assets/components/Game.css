@@ -1,0 +1,93 @@
+
+.score{
+    color: rgb(115, 126, 126);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.container{
+    display: flex; 
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to bottom, #050606, #151921);
+    width: 100%;
+}p{
+    font-size: large;
+    font-weight: lighter;
+    color: rgb(227, 30, 30);
+}
+.rules{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 8rem;
+}
+.rules p{
+    color: rgb(153, 244, 148);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+}
+.hero{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 10px;
+}
+.hero button{
+    padding: 10px 25px;
+    background-color: rgb(41, 39, 39);
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+}
+.hero img{
+    border-radius: 5%;
+     box-shadow: 2px 2px 10px  white;
+}
+.choose{
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+}
+.choose {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(216, 204, 204);
+    font-size: x-large;
+    font-weight:bold;
+}
+.choice{
+    display: flex;
+}
+.choice label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.choose input[type="checkbox"]{
+    accent-color: black;
+}
+.choose input{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
+@media only screen and (max-width: 600px){
+    .nav{
+        flex-direction: column;
+        padding: 3px;
+    }
+    
+    .hero{
+        margin-top: 0rem;
+    }
+}

@@ -1,0 +1,33 @@
+
+
+.background{
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.background h1{
+color: white;
+font-size: 5rem;
+}
+.background button{
+    padding: 12px 35px;
+     font-size: larger;
+     cursor: pointer;
+     border-radius: 10px;
+     color: rgb(217, 212, 212);
+     background-color: rgb(40, 39, 39);
+}
+.background button:hover{
+    background-color: rgb(21, 20, 20);
+}
+@media only screen and (max-width: 700px){
+    .background h1{
+       font-size: 3rem;
+    }
+}
